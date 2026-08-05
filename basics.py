@@ -23,3 +23,18 @@ if is_student:
     print("He is a student")
 else:
     print("He is not a student")
+
+#typecasting
+roll=float(roll)
+
+print(roll)
+print(type(roll))
+
+Name=bool(Name)
+print(Name)
+
+#input
+
+Name=input("Enter your name:")
+age=int(input("Enter your age:"))
+print(f"Hello {Name}! \nYou are {age} year old")
